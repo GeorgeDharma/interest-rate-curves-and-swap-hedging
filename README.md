@@ -1,6 +1,6 @@
 # Interest-rate curves and swap hedging
 
-**George Dharma · Quant portfolio project 09 · Python 3.12**
+**George Dharma · Quant portfolio · Python 3.12**
 
 How can additional swaps reduce the effect of changing interest rates on a portfolio? This project builds two EUR interest-rate curves, values four swaps and compares a single-swap hedge with a three-swap hedge.
 
