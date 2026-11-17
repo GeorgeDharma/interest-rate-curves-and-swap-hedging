@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/OpenSourceRisk/Engine",
+  "commit": "3d75a69087911a7e2cf1e6882da7bc27135c0762",
+  "files": [
+    {
+      "path": "Examples/Input/market_20160205.txt",
+      "url": "https://raw.githubusercontent.com/OpenSourceRisk/Engine/3d75a69087911a7e2cf1e6882da7bc27135c0762/Examples/Input/market_20160205.txt",
+      "bytes": 456860,
+      "sha256": "2a78a5c5dec9cba48f7a25866c40bf8e925cc000d2ec0dd6c0645fe1d0f3c362"
+    },
+    {
+      "path": "Examples/Input/conventions.xml",
+      "url": "https://raw.githubusercontent.com/OpenSourceRisk/Engine/3d75a69087911a7e2cf1e6882da7bc27135c0762/Examples/Input/conventions.xml",
+      "bytes": 52729,
+      "sha256": "443a70711a5835d8fe2e41f135aab0822cf624221d589894ce167c08fa849d74"
+    },
+    {
+      "path": "Examples/Input/curveconfig.xml",
+      "url": "https://raw.githubusercontent.com/OpenSourceRisk/Engine/3d75a69087911a7e2cf1e6882da7bc27135c0762/Examples/Input/curveconfig.xml",
+      "bytes": 133835,
+      "sha256": "a8b63df2e2b615536e523e9652ef0b69ca900ef2819f60365c3ef558ca5a0c3d"
+    }
+  ],
+  "license": {
+    "file": "ORE_license.txt",
+    "url": "https://raw.githubusercontent.com/OpenSourceRisk/Engine/3d75a69087911a7e2cf1e6882da7bc27135c0762/license.txt",
+    "sha256": "cae7892665c00e450c6cb87bcc3246986b2597aa4cef6a4771d74cce364e34e5"
+  }
+}
