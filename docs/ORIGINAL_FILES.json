@@ -1,0 +1,121 @@
+{
+  "source_package": "George_Dharma_09_Rates_Python.zip",
+  "files": [
+    {
+      "path": "George_Dharma_09_Rates_Notebook.ipynb",
+      "sha256": "4ddacad6a59946ee05060b7747aa888c3fda9f0514e65c0d39e732535b5cdaad"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0d22b3bbe2b96a735358549dfee2a293f02d5547a4cecd4ddcddabd21aab9f3b"
+    },
+    {
+      "path": "data/source/ORE_license.txt",
+      "sha256": "cae7892665c00e450c6cb87bcc3246986b2597aa4cef6a4771d74cce364e34e5"
+    },
+    {
+      "path": "data/source/conventions.xml",
+      "sha256": "443a70711a5835d8fe2e41f135aab0822cf624221d589894ce167c08fa849d74"
+    },
+    {
+      "path": "data/source/curveconfig.xml",
+      "sha256": "a8b63df2e2b615536e523e9652ef0b69ca900ef2819f60365c3ef558ca5a0c3d"
+    },
+    {
+      "path": "data/source/market_20160205.txt",
+      "sha256": "2a78a5c5dec9cba48f7a25866c40bf8e925cc000d2ec0dd6c0645fe1d0f3c362"
+    },
+    {
+      "path": "data/source/provenance.json",
+      "sha256": "677dfaa78e3a72b9cf0b5da9cfccb728fd80b7f95b1241b36b8fbb7df5e8085f"
+    },
+    {
+      "path": "outputs/calibration.csv",
+      "sha256": "9b02c3a62b7b6b3137da8ce505d3a8927b6d0a8d65494aa5aa0dcd9ec0761c68"
+    },
+    {
+      "path": "outputs/cashflows.csv",
+      "sha256": "432f4810efa2eae289f6c14f113db271883ed81ec4199f9c3179a0623b35674d"
+    },
+    {
+      "path": "outputs/curves.csv",
+      "sha256": "b80766884605029d90c3c53f79dda567d9d80f6bf1541b7e034e5c27ddf3edef"
+    },
+    {
+      "path": "outputs/curves.png",
+      "sha256": "ae0f42eb79e056d0d76ab851356ff60767f57b5e96e4a1670b13e67b1118f354"
+    },
+    {
+      "path": "outputs/hedge_positions.csv",
+      "sha256": "64058bec93e10b72434fdca2298a3362ff45657a1f90ec5cd63cb031f000401b"
+    },
+    {
+      "path": "outputs/pnl.csv",
+      "sha256": "eeda2a93b44fddfe1e8160cfc362cf9db6275db7962389187a361af3c13ce44a"
+    },
+    {
+      "path": "outputs/pnl_trades.csv",
+      "sha256": "6347af0b30421e93ca07e59bd5ee338cc73b28945237923585b5de025059848a"
+    },
+    {
+      "path": "outputs/results.json",
+      "sha256": "1bbe2e642217dcaecc91363be09ef0c4dcfbcc3c907cec9f6de32d72f35ab084"
+    },
+    {
+      "path": "outputs/risk.csv",
+      "sha256": "2f0db9bdd4af7d2a7998692a33b84e77666d39754279804bd2faa8bfbfc0e103"
+    },
+    {
+      "path": "outputs/risk_by_maturity.png",
+      "sha256": "948ae3a03aa891fb3752bfa358dc317b430f18c0e6d1fc49cd84c45ea48aaba6"
+    },
+    {
+      "path": "outputs/scenario_comparison.png",
+      "sha256": "921a087259b26040079064d0d0c2e39bbf1601897d34a20fdde943085cd6f599"
+    },
+    {
+      "path": "outputs/scenario_trades.csv",
+      "sha256": "9253b109f620cf1c253e678bcc5767cfb8c9748f14b3116a852bd3dfa6cc8d01"
+    },
+    {
+      "path": "outputs/scenarios.csv",
+      "sha256": "afc9b553876e09594beffdb44e062cd5a3a57dc3c5f635abd876c0543f2fab89"
+    },
+    {
+      "path": "outputs/summary.csv",
+      "sha256": "b8d1eee73b1f3c6a7b46e998b548c016dc69d9436d96314780d6d0badfcdb123"
+    },
+    {
+      "path": "outputs/trades.csv",
+      "sha256": "c9d879dcb402bc735526bfad0c35f4c31f46afd66e1e59a2ae2ab420157abb60"
+    },
+    {
+      "path": "rates/__init__.py",
+      "sha256": "5cdf7758022121d506fdc944d8ebdc632549c997f549ae7d9b5407140c4bcad6"
+    },
+    {
+      "path": "rates/analysis.py",
+      "sha256": "1bdfa0c76d1c2395a4506bcaf165da79b72a96d52c5ef18d9e446485d10c071e"
+    },
+    {
+      "path": "rates/dates.py",
+      "sha256": "6031ae8ad8593a85f05d963a80cb9546d553d63f52be5f6d83b235b11f8d5771"
+    },
+    {
+      "path": "rates/engine.py",
+      "sha256": "7599c0596f7a87430d19260acd5c635b5f2805aae2de95485a153036bc4dcac1"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "7cc9a7650ef4bf55dd0efdab27183678af5ca6ef6b82fe1bcd83f29900125695"
+    },
+    {
+      "path": "run_analysis.py",
+      "sha256": "3eada4b93d5df2e0aa5c8223e9d236f69b28a570c9fea9086d6e10d239a5627d"
+    },
+    {
+      "path": "tests/test_rates.py",
+      "sha256": "76caf85a9dc9a5c3c093396254b460df6793f6f4af502656525eef18fd90b0ab"
+    }
+  ]
+}
