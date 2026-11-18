@@ -1,13 +1,19 @@
 {
-  "source_package": "George_Dharma_09_Rates_Python.zip",
+  "source_package": "George_Dharma_GitHub_Projects_09-11.zip",
+  "source_directory": "George_Dharma_09_Rates_Python",
+  "source_package_sha256": "707829b301d98dcd607ff9e2a731bc74cfaeda19d7ab9910e2b7a0fd4f935844",
   "files": [
     {
+      "path": ".gitignore",
+      "sha256": "94397fc5cba02d48d4896b86e002972700470543baf36f3ef15772042d2a750d"
+    },
+    {
       "path": "George_Dharma_09_Rates_Notebook.ipynb",
-      "sha256": "4ddacad6a59946ee05060b7747aa888c3fda9f0514e65c0d39e732535b5cdaad"
+      "sha256": "5a03b995f103ea65d1707df82db2174eb1e0e0dc03b044121aa083bb389370b7"
     },
     {
       "path": "README.md",
-      "sha256": "0d22b3bbe2b96a735358549dfee2a293f02d5547a4cecd4ddcddabd21aab9f3b"
+      "sha256": "f151b8c1d90e5d61adf1b56f74a99255f534e41c19626fc50ae4859ecc1fc24a"
     },
     {
       "path": "data/source/ORE_license.txt",
@@ -28,6 +34,22 @@
     {
       "path": "data/source/provenance.json",
       "sha256": "677dfaa78e3a72b9cf0b5da9cfccb728fd80b7f95b1241b36b8fbb7df5e8085f"
+    },
+    {
+      "path": "outputs/budget_positions.csv",
+      "sha256": "e2ddd233f760090a53663398b23a186a6b981e30d1d3cb3bf6459daa71116b31"
+    },
+    {
+      "path": "outputs/budget_stresses.csv",
+      "sha256": "c5e0e1b51662461ca4c82d82cc12e23fff6b2bbfba1fd10ca9ab184b1dd2919a"
+    },
+    {
+      "path": "outputs/budget_summary.csv",
+      "sha256": "1385a0accaa0cc0179b491b5585de968ce638da28fbea456b0d7f76805b989ba"
+    },
+    {
+      "path": "outputs/budget_tradeoff.png",
+      "sha256": "57dc52d5e73eb7b9443b503594d861027e334a3c255072a0f4eb05196850ff7e"
     },
     {
       "path": "outputs/calibration.csv",
@@ -98,6 +120,10 @@
       "sha256": "1bdfa0c76d1c2395a4506bcaf165da79b72a96d52c5ef18d9e446485d10c071e"
     },
     {
+      "path": "rates/budget_figure.py",
+      "sha256": "c6aa75797fd7ef33f6152765b773a7ec868619d2ac1555cdb0589799d51373a0"
+    },
+    {
       "path": "rates/dates.py",
       "sha256": "6031ae8ad8593a85f05d963a80cb9546d553d63f52be5f6d83b235b11f8d5771"
     },
@@ -106,16 +132,29 @@
       "sha256": "7599c0596f7a87430d19260acd5c635b5f2805aae2de95485a153036bc4dcac1"
     },
     {
+      "path": "rates/stress_budget.py",
+      "sha256": "e8c5e5aabed4ef45b1ed3570cc9edba82aed2e18eb008b90180ab065affd63f2"
+    },
+    {
       "path": "requirements.txt",
       "sha256": "7cc9a7650ef4bf55dd0efdab27183678af5ca6ef6b82fe1bcd83f29900125695"
     },
     {
       "path": "run_analysis.py",
-      "sha256": "3eada4b93d5df2e0aa5c8223e9d236f69b28a570c9fea9086d6e10d239a5627d"
+      "sha256": "3875cdb5aab0846f6d88efca5d55c021e789296f8b40c37d7868879f209751d2"
     },
     {
       "path": "tests/test_rates.py",
       "sha256": "76caf85a9dc9a5c3c093396254b460df6793f6f4af502656525eef18fd90b0ab"
+    },
+    {
+      "path": "tests/test_stress_budget.py",
+      "sha256": "e8b8d26b0f2b99939c723b4e4f5907e804db6cee5c5ae6ba71543680d105afe5"
     }
-  ]
+  ],
+  "report": {
+    "source_package": "George_Dharma_Website_Projects_01-11.zip",
+    "path": "09_Rates/George_Dharma_09_Rates_Report.pdf",
+    "sha256": "1d1e546b0c8e3e36bb7bb3380fabd01c8e3450f30ce95617c39583726464e997"
+  }
 }

@@ -3,7 +3,7 @@
 George Dharma
 
 A Python project that values a small EUR interest-rate swap portfolio, measures
-its exposure to market quotes, and compares two ways to hedge that exposure.
+its exposure to market quotes, and compares sensitivity hedges with hedges constrained by gross notional.
 The report and Excel companion present the same calculation in forms that are
 easy to review. Python contains the curve construction and the full repricing.
 
@@ -17,6 +17,12 @@ portfolio trades are hypothetical. The portfolio's EUR 1.588 million starting
 value is the value of future net payments, not a trading profit. Every stress
 and the next-business-day P&L example is a chosen scenario, not an observed
 historical return.
+
+## Setting a gross hedge limit
+
+The desk can pay or receive fixed in two-, five- and ten-year swaps. For each limit of €0m, €10m, €20m, €40m and €60m, the optimiser minimises the largest after-cost loss across six design shocks. Every euro of absolute notional counts against the limit. The entry charge is half a basis point of swap rate applied to each hedge annuity.
+
+The same positions are then repriced under a five-year hump, a five-year dip, opposing discount and projection curve moves and a front-end shock. The €20m solution loses at most €179k across the design shocks and €235k across the four additional shocks. A €40m limit improves the design loss to €57k but raises the additional-shock loss to €317k. These are losses in specified scenarios. The results table records both sets. [Hedge budgets](../outputs/budget_summary.csv) · [Signed positions](../outputs/budget_positions.csv) · [Results by shock](../outputs/budget_stresses.csv)
 
 ## Running this version
 
